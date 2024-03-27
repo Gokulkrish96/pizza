@@ -9,9 +9,9 @@ export const Cart = () => {
   return (
     <>
 
-< Button variant="light" onClick={()=>{setShow(!show)}} className="me-2 position-relative">
-<i class="bi bi-cart4"></i>
-<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+< Button variant="light" onClick={()=>{setShow(!show)}} className=" btn position-relative ">
+<i className="bi bi-cart4"></i>
+<span class="position-absolute top-0  translate-middle badge rounded-pill bg-danger">
   3
     <span class="visually-hidden">Cart</span>
   </span>
